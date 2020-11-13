@@ -3,25 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Joystick</title>
   </head>
   <body>
     <header>
-      <img src="./images/profile.jpg" alt="profile picture" />
-      <h1>Futuro Reluzente</h1>
-      <h3>Passado Obscuro</h3>
+      <img id="profile_picture" src="./images/profile.jpg" alt="profile picture" />
+      <h1 id="title">Futuro Reluzente</h1>
+      <h5>Passado Obscuro</h5>
     </header>
     <section>
       <header>
-        <h2>"Posts"</h2>
+        <h2 class="subtitle">"Posts"</h2>
       </header>
-      <article>
+      <article class="post">
         <header>
-          <h3>"Quotes"</h3>
-          <img src="./images/quote.jpg" alt="sea" />
+          <h3 class="post_title">"Quotes"</h3>
+          <img class="post_image" src="./images/quote.jpg" alt="sea" />
         </header>
-        <p>Nada é eterno, tudo dura tempo suficiente para ser inesquecível</p>
-        <p>
+        <p class="post_content">
+          Nada é eterno, tudo dura tempo suficiente para ser inesquecível
           <a
             href="https://www.google.com/search?sxsrf=ALeKk01WUFawo7oAYxuNeHekmr2vqpQgxQ%
             3A1605039017093&source=hp&ei=qfOqX6OsA7m45OUPwpmlKA&q=cinthia&oq=cinthia&gs_l
@@ -32,15 +33,13 @@
             target="_blank"
             >Cintia</a
           >
-        </p>
-        <p>
           <a href="mailto:cintia@gmail.com" target="_blank">cintia@gmail.com</a>
         </p>
       </article>
     </section>
     <footer>
       Alex Trindade ™
-      <ul>
+      <ul class="contacts_list">
         <li>
           <a href="mailto:alex.trindade@live.com" target="_blank">email</a>
         </li>
